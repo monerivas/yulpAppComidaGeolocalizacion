@@ -1,6 +1,6 @@
-var cargarPagina = function () {
+/*var cargarPagina = function () {
 	$("#get-location").click(obtenerUbicacion);
-};
+};*/
 
 var obtenerUbicacion = function (e) {
 	if (navigator.geolocation) {
@@ -33,12 +33,11 @@ var mostrarMapa = function (coordenadas) {
     });
 }
 
+$(document).ready(obtenerUbicacion);
 
 /*
 API KEY:   AIzaSyCvT5zFi6GQj0nhiQEVoHu1egn02RLjmjw
 */
-
-$(document).ready(cargarPagina);
 
 
 
