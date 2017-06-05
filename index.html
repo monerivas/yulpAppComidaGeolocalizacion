@@ -15,40 +15,27 @@
 <body>
     <section class="container-fluid">
         <header class="row">
-
-
             <nav class="col s12">
-                <!--                <div class="col s10">
-                    <div class="nav-wrapper">
-                        <form>
-                            <div class="input-field">
-                                <input id="search" type="search" required>
-                                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-                                <i class="material-icons">close</i>
-                            </div>
-                        </form>
-                    </div>
-                </div>-->
                 <div class="col s6 offset-s3 center">
                     <h3>YULP</h3>
                 </div>
             </nav>
         </header>
         <!----------Inicio Area Mostrado--------------->
-        <section class="map" id="areaMostrado">
-
-            
+        <section class="row" id="areaMostrado">
+        <div class="map divContenedorMapa"></div>
+        <div id="listaRestaurantes">
+            <p></p>
+        </div>
         </section>
-                <!----------Fin Area Mostrado--------------->
-        
+        <!----------Fin Area Mostrado--------------->
+
+        <!----------Inicio Area Botnones--------------->
         <section class="row" id="areaBotones">
-           <button id="get-location" type="button" class="btn btn-primary btn-large">Obtener ubicación</button>
+            <button id="get-location" type="button" class="btn btn-primary btn-large">Obtener ubicación</button>
             <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvT5zFi6GQj0nhiQEVoHu1egn02RLjmjw"></script>
-
-            
         </section>
-
-
+        <!----------Fin Area Botones--------------->
 
 
         <!--------Inicio Area areaBusqueda----------------->
