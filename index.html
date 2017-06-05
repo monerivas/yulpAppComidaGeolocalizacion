@@ -35,14 +35,19 @@
             </nav>
         </header>
         <!----------Inicio Area Mostrado--------------->
-        <section class="row" id="areaMostrado">
-            
-               
-                <iframe class="col s12" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15051.813828625898!2d-99.16242654999999!3d19.414416850000002!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1496683737829" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <section class="map" id="areaMostrado">
 
             
         </section>
-        <!----------Fin Area Mostrado--------------->
+                <!----------Fin Area Mostrado--------------->
+        
+        <section class="row" id="areaBotones">
+           <button id="get-location" type="button" class="btn btn-primary btn-large">Obtener ubicación</button>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvT5zFi6GQj0nhiQEVoHu1egn02RLjmjw"></script>
+
+            
+        </section>
+
 
 
 
@@ -66,7 +71,8 @@
 
     <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/materialize.min.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="assets/js/geolocalizacion.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
